@@ -5,6 +5,13 @@ import PokemonCard from './PokemonCard'
 import image from '../../img/image 12.png'
 import Pagination from './Pagination'
 import Forms from './Forms'
+<<<<<<< HEAD
+=======
+import imageGa from '../../img/gabriel.jpeg'
+import imageMi from '../../img/miguel.jpeg'
+import { BsLinkedin, BsGithub } from "react-icons/bs";
+
+>>>>>>> ed2432d85d4a26740789c999b223713817323883
 const Pokedex = () => {
 
   const userName = useSelector(state => state.userName)
@@ -127,7 +134,34 @@ const Pokedex = () => {
           setCurrentPage={setCurrentPage}
           quantityPages={quantityPages}
         />
+<<<<<<< HEAD
       </div>
+=======
+      
+      </div>
+      <div className='footer-colaborators'>
+        <h2>Colaborators</h2>
+        <div className='container-colaborators'>
+            <article>
+              
+              <h3>Gabriel Sanchez</h3>
+              <ul>
+                <li><a href="https://www.linkedin.com/in/gabriel-sanchez-717222206/"><BsLinkedin/></a></li>
+                <li><a href="https://github.com/gabrielsanchez16"><BsGithub/></a></li>
+              </ul>
+            </article>
+            <article>
+              
+              <h3>Miguel Chavez</h3>
+              <ul>
+                <li><a href=""><BsLinkedin/></a></li>
+                <li><a href=""><BsGithub/></a></li>
+              </ul>
+            </article>
+        </div>
+            
+          </div>
+>>>>>>> ed2432d85d4a26740789c999b223713817323883
     </>
 
   )
