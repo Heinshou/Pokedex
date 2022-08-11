@@ -11,8 +11,8 @@ const Home = ({setIsLogged}) => {
     <div className='container-home'>
         <img className='pokedex' src={image} alt="" />
         <img className='gif' src={gif} alt="" />
-        <h1>¡Bienvenido Entrenador!</h1>
-        <p>Para poder comenzar, dame tu nombre</p>
+        <h1>¡Welcome Trainer!</h1>
+        <p>To start, Tell me your name</p>
         <InputHome
         setIsLogged={setIsLogged}/>
     </div>

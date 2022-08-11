@@ -26,7 +26,7 @@ const InputHome = ({setIsLogged}) => {
   return (
     <div className='container-input'>
         <form className='form-home' onSubmit={handleSubmit(submit)}>
-            <input placeholder='Ingresa tu nombre de entrenador' type="text" {...register('userName')} />
+            <input placeholder='Trainer Name' type="text" {...register('userName')} />
             <button>Go to Pokedex</button>
         </form>
     </div>
